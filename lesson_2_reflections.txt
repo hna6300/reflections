@@ -1,2 +1,5 @@
 What happens when you initialize a repository? Why do you need to do it?
 When initializing a repository, a ".git" file will be created. We need to initialize a repository in order to see the log (history) of commits made to that repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is different from the working directory in a sense that it only contains files that will be committed, not every file. After the commit is made, the repository's history will now contain the commit.
