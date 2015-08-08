@@ -3,3 +3,19 @@ When initializing a repository, a ".git" file will be created. We need to initia
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area is different from the working directory in a sense that it only contains files that will be committed, not every file. After the commit is made, the repository's history will now contain the commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+I can make sure to have one commit per logical change by adding only the files' changes (logical ones) that I want to commit, and leave other changes in the working directory "uncommited".
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches can be helpful when I make unrelated logical changes (ex: a new language and an experimental feature). Branches in this situation helps organize changes into the relevant branch.
+
+How do the diagrams help you visualize the branch structure?
+The diagram helps visualize the branch structure by showing each branch as an "actual physical branch" of a tree diagram. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+When we merge the two branches together, all the changes made in both branches will be put into one single file (even deletion). The diagram shows these changes quite clearly by having 2 branches point into 1.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic: saves time but might cause bugs
+Manutal: total control but wastes time
