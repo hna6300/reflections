@@ -12,4 +12,7 @@ Branches: commits of different purposes (experiments, multiple contributors,...)
 What is the benefit of having a copy of the last known state of the remote stored locally? (using git fetch)
 So that we can merge these branches locally when we wish to do so.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I can exchange code with my collaborators, but it is not as convenient and safe as using GitHub.
+
 
