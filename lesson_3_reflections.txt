@@ -9,3 +9,7 @@ Fork: copies of a repository on GitHub
 Clones: copies of a repository on local computers
 Branches: commits of different purposes (experiments, multiple contributors,...)
 
+What is the benefit of having a copy of the last known state of the remote stored locally? (using git fetch)
+So that we can merge these branches locally when we wish to do so.
+
+
