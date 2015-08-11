@@ -15,4 +15,7 @@ So that we can merge these branches locally when we wish to do so.
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 I can exchange code with my collaborators, but it is not as convenient and safe as using GitHub.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Changes should be made in branches other than master when we're not sure about those changes (experiments, changes coming from collaborators,...). If we make changes directly to master then we don't have to merge branches together. However, since master is the main branch (backbone) of a repository, it might be risky to apply changes directly to it, since we might end up dealing with unwanted/flawed changes.
+
 
